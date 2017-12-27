@@ -1,6 +1,6 @@
 # vue-functional-component
 
-> An example of how to use functional (stateless) components with Vue]
+> An example of how to use functional (stateless) components with Vue
 
 ## Build Setup
 

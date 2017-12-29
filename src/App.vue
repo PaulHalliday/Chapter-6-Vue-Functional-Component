@@ -7,14 +7,14 @@ export default {
       names: ['Evan You', 'Edd Yerburgh', 'Paul Halliday']
     }
   },
-  render(createElement) {
-    return createElement('div', [
-           createElement('ul',
-            this.names.map(name => 
-              createElement(ListItem, 
-                {props: { name: name }
-              })
-          ))])
+  render() {
+    return (
+      <div>
+        <ul>
+          { this.names.map(name => <ListItem name={name} />) }
+        </ul>
+      </div>
+    )
   }
 }
 </script>

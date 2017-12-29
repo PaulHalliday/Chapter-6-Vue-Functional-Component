@@ -7,7 +7,7 @@ export default {
       names: ['Evan You', 'Edd Yerburgh', 'Paul Halliday']
     }
   },
-  render() {
+  render(h) {
     return (
       <div>
         <ul>
